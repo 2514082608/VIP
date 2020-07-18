@@ -1,0 +1,236 @@
+.center{
+    width: 1170px;
+    height: 656px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 22px;
+}
+.look-look{
+    width: 420px;
+    height: 491px;
+    float: left;
+}
+.big_img{
+    width: 420px;
+    height: 420px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid red;
+}
+.big_img img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.big__img_box{
+    position: absolute;
+    width: 320px;
+    overflow: hidden;
+    height: 420px;
+    top: 22px;
+    left: 30px;
+}
+.big__img_box img{
+    width: 1200px;
+    height: 1200px;
+    display: none;
+    position: absolute;
+}
+
+.btn{
+    width: 420px;
+    height: 64px;
+    position: absolute;
+    
+}
+.btn li{
+    float: left;
+    margin-left: 6px;
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+}
+.btn li img{
+    width: 100%;
+    height: 100%;
+}
+
+.prev-prev,.next-next{
+    float: left;
+    width: 29px !important;
+    height: 64px!important;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 64px;
+    font-size: 20px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.message{
+    width: 550px;
+    float: left;
+    height: 538px;
+    margin-left: 30px;
+}
+.mes-title{
+    width: 550px;
+    height: 50px;
+    margin-bottom: 15px;
+
+}
+.mes-title h2{
+    position: relative;
+    left: 0;
+    margin-bottom: 13px;
+}
+.mes-title span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.mes-price{
+    width: 550px;
+    height: 94px;
+    background: url(https://b.appsimg.com/upload/momin/2020/05/26/121/1590458988101.png);
+    line-height: 94px;
+    margin-bottom: 20px;
+}
+.price-left{
+    float: left;
+    color: white;
+}
+.price-left span:nth-child(1){
+    margin-left: 30px;
+    font-size: 30px;
+}
+.price-left del{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.price-right{
+    width: 162px;
+    height: 94px;
+    position: relative;
+    float: right;
+}
+.price-right p{
+    font-size: 21px;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    color: white;
+}
+.progress-bar{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 71px;
+    height: 9px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+.progress-bar div{
+    width: 87%;
+    height: 9px;
+    background-color: white;
+}
+.price-right span{
+    position: absolute;
+    left: 89px;
+    color: white;
+    bottom: -21px;
+}
+
+.address{
+    width: 550px;
+    height: 308px;
+}
+.address em, .address i{
+    font-style: normal;
+}
+.address em{
+    margin-right: 15px;
+}
+.one{
+    display: flex;
+    width: 550px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.one div{
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(204,204,204);
+}
+.two,.three,.four,.five{
+    width: 550px;
+    height: 32px; line-height: 32px;
+}
+.four{
+    margin-bottom: 20px;
+}
+.size_active{
+    background-color: orange;
+    color: white;
+}
+.four i{
+    display: inline-block;
+    width: 72px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: rgb(204,204,204) 1px solid;
+    margin-right: 10px;
+}
+.five{
+    width: 560px;
+    height: 51px;
+    line-height: 51px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.five div{
+    width: 75px;
+    height: 30px;
+    display: flex;
+}
+.five div input{
+    width: 31px;
+    height: 28px;
+    box-sizing: border-box;
+    border-left: none;
+    border-right: none;
+    padding-left: 12px;
+}
+.five div button{
+    width: 21px;
+    outline: none;
+    border: none;
+    height: 28px;
+    background-color: rgb(249,248,248);
+    border: 1px solid grey;
+}
+
+.six{
+    width: 198px;
+    height: 46px;
+    background-color: rgb(241,1,128);
+    
+    text-align: center;
+    line-height: 46px;
+    border-radius: 10px;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.six a{
+    font-size:  15px;
+    color: white;
+}
